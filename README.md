@@ -1,6 +1,6 @@
 # 🩺 Physician Notetaker – NLP Pipeline
 
-![Physician Notetaker](images/doctor.png)
+![Physician Notetaker](https://github.com/ritik-sri/Physician-Notetaker-NLP/blob/main/unnamed%20(2).jpg)
 
 ## 📌 Project Overview
 Physician Notetaker is an AI-powered NLP system designed to process doctor–patient medical conversations and transform unstructured text into structured clinical information. The project demonstrates how Natural Language Processing (NLP) and Transformer-based models can be applied for:
