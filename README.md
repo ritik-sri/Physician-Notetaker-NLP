@@ -74,40 +74,33 @@ Output: Structured JSON format SOAP notes
 
 pip install spacy transformers torch keybert scikit-learn
 python -m spacy download en_core_web_sm
-2️⃣ Run the Project
 
-Open the .ipynb notebook in Google Colab.
+## 2️⃣ Run the Project
 
-Run all cells sequentially.
+1. Open the `.ipynb` notebook in **Google Colab**.  
+2. Run all cells sequentially.  
+3. The final outputs will include:  
+   - **Medical Summary (JSON)**  
+   - **Sentiment & Intent (JSON)**  
+   - **SOAP Note (JSON)**  
 
-Final outputs include:
+---
 
-Medical Summary (JSON)
+### 📝 Design Notes
+- Rule-based techniques used for medical entity extraction (simplicity-focused)  
+- Pre-trained transformer models applied without fine-tuning  
+- Project emphasizes **pipeline design**, not clinical deployment  
+- Easily extendable with fine-tuned medical NLP models  
 
-Sentiment & Intent (JSON)
+---
 
-SOAP Note (JSON)
+### 🚀 Future Improvements
+- Fine-tune BERT on medical datasets  
+- Use clinical NLP models like **BioBERT** or **ClinicalBERT**  
+- Improve NER accuracy using medical ontologies  
+- Add **speech-to-text support** for real-time transcription  
 
-📝 Design Notes
+---
 
-Rule-based techniques used for medical entity extraction
-
-Pre-trained transformer models applied without fine-tuning
-
-Project emphasizes pipeline design, not clinical deployment
-
-Easily extendable with fine-tuned medical NLP models
-
-🚀 Future Improvements
-
-Fine-tune BERT on medical datasets
-
-Use clinical NLP models like BioBERT or ClinicalBERT
-
-Improve NER accuracy using medical ontologies
-
-Add speech-to-text support for real-time transcription
-
-👤 Author
-
-Ritik Srivastava
+### 👤 Author
+**Ritik Srivastava**
